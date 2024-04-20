@@ -24,22 +24,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <style>
-    @media (max-width: 1500px ) and (min-width: 1000px) {
-    .iframe {
-		min-height: 650px;
-        background: gree;
-    }
-    .contest {
-        background: green
+    @media (max-width: 1500px) and (min-width: 1000px) {
+        .iframe {
+            min-height: 650px;
+            background: green; /* Corrected typo */
+        }
+        .contest {
+            background: green;
+        }
     }
     @media only screen and (max-width: 768px) {
-        .affiche{
-       width: 100%;
-       height: 100%;
+        .affiche {
+            width: 100%;
+            height: 100%;
+        }
     }
-}
-}
-
 </style>
 
 <body style="background: #ffffff;  overflow: hidden; padding: 0; margin: 0; flex-direction: column;">
@@ -50,15 +49,17 @@
     </nav>
 
     <!-- Video Section -->
-    <div class="affiche" style="display: flex; justify-content: center; align-content: center; margin-top: 30px;">
-        <div class="video-container text-center" id="contest" style="width: 70%; ; background-repeat: no-repeat; height: 100%; ">
-            <div class="container" style="">
-                <img src="images/pc0.jpg" alt="" width="100%" height="100%" id="affiche">
-                
-            </div>
+<!-- Video Section -->
+<div class="affiche" style="display: flex; justify-content: center; align-content: center; margin-top: 30px;">
+    <div class="video-container text-center" id="contest" style="width: 100%; background-repeat: no-repeat; height: 100vh;">
+        <div class="container" style="">
+            <!-- Use the iframe tag directly with updated height -->
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/4gX44uyGSHo?si=OxWVXxg9Jndy3o_6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                
         </div>
     </div>
-    <script src="js/js/js/js.js"></script>
+</div>
+
+<script src="js/js/js/js.js"></script>
     <!-- lien de live -->
     <a hidden id="cmclive" class="glightbox"></a>
     <script src="https://smd2024.sourcedart.org/js/js/js/jquery.js"></script>
