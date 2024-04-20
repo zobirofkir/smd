@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>SMD 2024</title>
+    <title>JIPT</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <style>
 .image {
@@ -15,7 +15,7 @@
     height: 100%;
     background-size: cover;
     background-position: center;
-    background-image: url({{asset('images/pc0.jpg')}});
+    background-image: url('../../images/pc0.jpg');
         
 }
 
@@ -23,10 +23,9 @@
     .image {
         background-size: cover;
         background-position: center;
-        background-image: url({{asset('images/tele0.jpg')}});
+        background-image: url('../../images/tele0.jpg');
     }
 }
-
 
 
 #styleC {
@@ -41,7 +40,7 @@
         text-align: center;
         margin-right: auto;
         margin-left: auto;
-        margin-top: 125%; /* Adjusted margin-top as per your requirement */
+        margin-top: 150%; /* Adjusted margin-top as per your requirement */
     }
 }
 
@@ -71,7 +70,7 @@
         <div class="container">
             <div class="row">
                 <div id="styleC">
-                    <a href="{{url('/programme')}}" class="">
+                    <a href="https://smd2024.sourcedart.org/programme" class="">
                         <img src="images/programme.png" style="" width="30%" alt="" class="image-bg">
                     </a>
                     <br>
@@ -79,7 +78,7 @@
                         <img src="images/Inscription.png" alt="" width="30%" class="image-bg">
                     </a>
                     <br>
-                    <a href="{{url('/live')}}" class="">
+                    <a href="https://smd2024.sourcedart.org/live" class="">
                         <img src="images/live.png" alt="" width="30%" class="image-bg">
                         
                     </a>
@@ -87,7 +86,6 @@
             </div>
         </div>
     </div>      
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"</script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
